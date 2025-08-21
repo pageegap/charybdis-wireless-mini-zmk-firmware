@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - L_BASE L_GAME
-  - TAB
+  - BACK SPACE
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
@@ -40,7 +40,7 @@ layers:
   - ESC SCRL SLOW
   - SYM LCLK
   - BS NUM
-  - ENTER
+  - DEL
   - SPACE NAV
   NUM:
   - ''
