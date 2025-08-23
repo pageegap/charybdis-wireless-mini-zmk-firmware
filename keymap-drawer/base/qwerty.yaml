@@ -11,8 +11,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - P
-  - ENTER
+  - RET
+  - RET
   - BACK SPACE
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
