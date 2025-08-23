@@ -12,17 +12,17 @@ layers:
   - '2'
   - '3'
   - P
-  - L_BASE L_GAME
+  - ENTER
   - BACK SPACE
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
   - {t: F, h: LCTRL}
   - G
+  - N
   - '4'
   - '5'
   - '6'
-  - {t: L, h: LALT}
   - {t: ;, h: RCMD}
   - DEL
   - CLIP HIST
