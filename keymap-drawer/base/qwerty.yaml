@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: qwerty}
 layers:
   BASE:
-  - SEARCH
+  - CAPSLOCK
   - Q
   - W
   - E
@@ -37,7 +37,7 @@ layers:
   - .
   - {t: /, h: NAV}
   - RSHFT
-  - {t: MB1, h: GAME}
+  - {t: MB1, h: SYM}
   - BACK SPACE
   - '&showscreen'
   - DELETE
@@ -80,8 +80,8 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPSLOCK
   - TAB
+  - CAPSLOCK
   - TAB
   - {t: ▽, type: trans}
   NAV:
@@ -163,7 +163,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -205,7 +205,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - SPACE
   - LEFT ALT
   - ''
