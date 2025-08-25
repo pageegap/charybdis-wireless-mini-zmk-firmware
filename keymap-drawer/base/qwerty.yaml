@@ -37,9 +37,9 @@ layers:
   - .
   - {t: /, h: NAV}
   - RSHFT
-  - '&showscreen'
-  - {t: TAB, h: SYM}
+  - {t: MB1, h: GAME}
   - BACK SPACE
+  - '&showscreen'
   - DELETE
   - SPACE
   NUM:
@@ -85,86 +85,86 @@ layers:
   - TAB
   - {t: ▽, type: trans}
   NAV:
-  - ''
-  - WHEEL L
-  - WHEEL D
-  - ''
-  - WHEEL U
-  - WHEEL R
-  - TMUX DETCH
-  - TMUX ATTCH
-  - TMUX NEXT
-  - TMUX SESH
-  - TMUX SYNC
-  - ''
-  - TAB
-  - BACK
-  - LALT
-  - LSHFT
-  - LCTRL
-  - FWD
-  - HSPLIT
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - ''
-  - ''
-  - MOVE L
-  - MOVE D
-  - MOVE UP
-  - MOVE R
-  - ''
-  - VSPLIT
-  - HOME
-  - PG DN
-  - PG UP
-  - {t: END, type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
-  SYM:
-  - ''
-  - ''
-  - ''
-  - ^
-  - '~'
-  - ''
-  - +
-  - '&'
-  - '['
-  - ']'
+  - ''''
   - '%'
-  - \
-  - ''
-  - ''
-  - (
-  - )
-  - BACK SPACE
-  - _
-  - '-'
-  - '`'
   - '{'
   - '}'
-  - '*'
-  - '|'
-  - ''
-  - ''
-  - ''
   - '#'
-  - ~/
-  - $
-  - '='
-  - '```'
-  - <
-  - '>'
+  - '|'
+  - '&'
+  - '*'
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '"'
   - '@'
-  - /
-  - ''
+  - (
+  - )
+  - '~'
+  - '!'
+  - '='
+  - +
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - \
+  - LCTRL
+  - '['
+  - ']'
+  - $
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - RIGHT GUI
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
+  - {t: ▽, type: trans}
+  SYM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - MUTE
+  - VOLUME UP
+  - VOLUME DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F12
+  - F7
+  - F8
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - UP ARROW
+  - DOWN ARROW
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&new_line'
+  - HOME
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -205,7 +205,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - SPACE
   - LEFT ALT
   - ''
