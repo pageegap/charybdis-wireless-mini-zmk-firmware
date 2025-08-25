@@ -16,13 +16,7 @@
             bindings = <&mkp MCLK>;
             key-positions = <26 27>;
         };
-        
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <07 08>;
-            bindings = <&kp ESC>;
-        };
-
+                
         righ_enter {
             key-positions = <31 32>;
             bindings = <&kp ENTER>;
