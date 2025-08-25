@@ -41,7 +41,7 @@
 // ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼────────────────────────┼─────────────┤
     &kp BACKSPACE   &ht_left LCMD A  &ht_left LALT S  &ht_left LCTRL D  &ht_left  LSHFT F  &kp G    &kp H   &ht_right RSHFT J  &ht_right RCTRL K  &ht_right LALT L  &ht_right RCMD SEMICOLON   &kp DEL
 // ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼────────────────────────┼─────────────┤
-    &kp  LSHFT        &kp Z            &kp X            &kp C            &kp V             &kp B    &kp N    &kp M              &kp COMMA    &kp PERIOD  &kp KP_SLASH             &kp RSHFT
+    &kp  LSHFT        &lt 1 Z           &kp X            &kp C            &kp V             &kp B    &kp N    &kp M              &kp COMMA    &kp PERIOD  &lt 2 SLASH            &kp RSHFT
 // ╰───────────────┴────────────────┴────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┴─────────────────┴────────────────────────┴─────────────╯
                                                             &showscreen  &lt 3 TAB    &kp BACKSPACE    &kp DELETE  &kp SPACE
                                                          // ╰──────────────────┴─────────┴──────╯  ╰──────────┴──────────────╯
@@ -50,10 +50,10 @@
 
         NUM {
             bindings = <
-&none   &none  &none  &none  &none          &none            &kp PLUS      &ht_num_func F7 N7  &ht_num_func F8 N8  &ht_num_func F9 N9  &ht_num_func F10 PRCNT  &none
-&trans   &none  &none  &none  &kp BACKSPACE  &none            &kp KP_MINUS &ht_num_func F4 N4  &ht_num_func F5 N5  &ht_num_func F6 N6  &ht_num_func F11 ASTRK  &none
-&none    &none  &none  &none  &none          &none            &kp EQUAL    &ht_num_func F1 N1  &ht_num_func F2 N2  &ht_num_func F3 N3  &ht_num_func F12 DOT    &kp KP_SLASH
-                       &none  &none          &trans           &kp N0     &kp SPACE
+    &trans    &trans  &trans        &trans           &trans        &trans         &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+    &trans    &none   &trans        &kp LC(LS(TAB))  &kp LC(TAB)   &trans         &trans   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+    &trans    &trans  &kp LEFT_GUI  &mkp MB4         &mkp MB1      &mkp MB5       &trans   &kp N7        &kp N8        &kp N9        &kp NUMBER_0  &trans
+                                    &trans         &kp CAPSLOCK     &kp TAB       &kp TAB    &trans  
             >;
         };
 
