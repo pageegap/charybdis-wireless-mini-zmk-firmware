@@ -37,7 +37,7 @@ layers:
   - .
   - {t: /, h: NAV}
   - RSHFT
-  - {t: MB1, h: SYM}
+  - {t: '&mkp MB1', h: SYM}
   - BACK SPACE
   - '&showscreen'
   - DELETE
@@ -346,15 +346,13 @@ combos:
   k: L CLK
 - p: [26, 27]
   k: Mid CLK
-- p: [27, 28]
-  k: R CLK
 - p: [6, 7]
   k: ESC
+- p: [31, 32]
+  k: ENTER
 - p: [27, 28]
   k: ENTER
-- p: [23, 24]
-  k: ENTER
-- p: [4, 5]
+- p: [4, 6]
   k: Gui+Ctl+ Q
-- p: [14, 15]
+- p: [17, 18]
   k: Gui+Sft+ 5
