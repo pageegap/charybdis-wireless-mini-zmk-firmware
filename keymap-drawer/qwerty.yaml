@@ -337,13 +337,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [17, 18]
-  k: CAPS WORD
-  l: [BASE]
 - p: [38, 39]
   k: L_BASE L_EXTRA
-- p: [25, 26]
-  k: L CLK
+- p: [4, 5]
+  k: '&mkp MB1'
 - p: [26, 27]
   k: Mid CLK
 - p: [6, 7]
