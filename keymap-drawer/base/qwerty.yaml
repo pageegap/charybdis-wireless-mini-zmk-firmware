@@ -26,7 +26,7 @@ layers:
   - {t: ;, h: RCMD}
   - DEL
   - LSHFT
-  - Z
+  - {t: Z, h: NUM}
   - X
   - C
   - V
@@ -35,7 +35,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: NAV}
   - RSHFT
   - '&showscreen'
   - {t: TAB, h: SYM}
@@ -43,47 +43,47 @@ layers:
   - DELETE
   - SPACE
   NUM:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - +
-  - {t: '7', h: F7}
-  - {t: '8', h: F8}
-  - {t: '9', h: F9}
-  - {t: '%', h: F10}
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - ''
-  - BACK SPACE
-  - ''
-  - '-'
-  - {t: '4', h: F4}
-  - {t: '5', h: F5}
-  - {t: '6', h: F6}
-  - {t: '*', h: F11}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '='
-  - {t: '1', h: F1}
-  - {t: '2', h: F2}
-  - {t: '3', h: F3}
-  - {t: ., h: F12}
-  - /
-  - ''
-  - ''
   - {t: ▽, type: trans}
+  - Ctl+Sft+ TAB
+  - Ctl+ TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - LEFT GUI
+  - BACK
+  - '&mkp MB1'
+  - FWD
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - '0'
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - CAPSLOCK
+  - TAB
+  - TAB
+  - {t: ▽, type: trans}
   NAV:
   - ''
   - WHEEL L
@@ -119,7 +119,7 @@ layers:
   - HOME
   - PG DN
   - PG UP
-  - END
+  - {t: END, type: held}
   - ''
   - ''
   - ''
