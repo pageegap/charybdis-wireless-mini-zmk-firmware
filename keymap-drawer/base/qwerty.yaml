@@ -24,7 +24,7 @@ layers:
   - {t: K, h: RCTRL}
   - {t: L, h: LALT}
   - {t: ;, h: RCMD}
-  - ''''
+  - DEL
   - LSHFT
   - {t: Z, h: NUM}
   - X
@@ -337,7 +337,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [38, 39]
+- p: [17, 18]
   k: CAPS WORD
   l: [BASE]
 - p: [38, 39]
@@ -346,13 +346,13 @@ combos:
   k: L CLK
 - p: [26, 27]
   k: Mid CLK
-- p: [7, 8]
+- p: [6, 7]
   k: ESC
 - p: [31, 32]
   k: ENTER
 - p: [27, 28]
   k: ENTER
-- p: [5, 6]
+- p: [4, 6]
   k: Gui+Ctl+ Q
 - p: [17, 18]
   k: Gui+Sft+ 5
