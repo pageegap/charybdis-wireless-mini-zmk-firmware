@@ -24,7 +24,7 @@ layers:
   - {t: K, h: RCTRL}
   - {t: L, h: LALT}
   - {t: ;, h: RCMD}
-  - DEL
+  - ''''
   - LSHFT
   - {t: Z, h: NUM}
   - X
