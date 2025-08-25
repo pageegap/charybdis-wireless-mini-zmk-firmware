@@ -23,7 +23,7 @@ layers:
   - {t: J, h: RSHFT}
   - {t: K, h: RCTRL}
   - {t: L, h: LALT}
-  - '&ht_ right RCMD SEMICOLON'
+  - {t: ;, h: RCMD}
   - DEL
   - LSHFT
   - Z
