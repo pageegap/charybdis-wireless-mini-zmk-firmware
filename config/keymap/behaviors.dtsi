@@ -4,6 +4,13 @@
 
 / {
     behaviors {
+        showscreen: showscreen {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SHOWSCREEN";
+            #binding-cells = <0>;
+            bindings = <&kp LC(UP_ARROW)>, <&kp LG(UP_ARROW)>;
+        };
+        
         ht_num_func: homerow_mod {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;

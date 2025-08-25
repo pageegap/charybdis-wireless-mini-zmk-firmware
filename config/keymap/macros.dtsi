@@ -1,5 +1,12 @@
 / {
     macros {
+        new_line: new_line {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(E) &kp ENTER>;
+            label = "NEW_LINE";
+        };
+
         v_split: v_split {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
