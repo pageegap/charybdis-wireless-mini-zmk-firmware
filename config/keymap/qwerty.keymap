@@ -43,7 +43,7 @@
 // ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼────────────────────────┼─────────────┤
     &kp  LSHFT        &lt 1 Z           &kp X            &kp C            &kp V             &kp B    &kp N    &kp M              &kp COMMA    &kp PERIOD  &lt 2 SLASH            &kp RSHFT
 // ╰───────────────┴────────────────┴────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┴─────────────────┴────────────────────────┴─────────────╯
-                                                            &showscreen  &lt 3 TAB    &kp BACKSPACE    &kp DELETE  &kp SPACE
+                                                             &lt 4 MB1    &kp BACKSPACE  &showscreen     &kp DELETE  &kp SPACE
                                                          // ╰──────────────────┴─────────┴──────╯  ╰──────────┴──────────────╯
             >;
         };
@@ -59,19 +59,20 @@
 
         NAV {
             bindings = <
-&none    &msc MOVE_LEFT  &msc MOVE_UP    &none        &msc MOVE_DOWN  &msc MOVE_RIGHT     &detach_session  &create_or_attach  &next_pane   &show_sessions  &sync_panes       &none
-&kp TAB  &mkp MB4        &kp LALT        &kp LSHFT    &kp LCTRL       &mkp MB5            &h_split         &kp LEFT_ARROW     &kp DOWN     &kp UP          &kp RIGHT_ARROW   &none
-&none    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT &none               &v_split         &kp HOME           &kp PG_DN    &kp PG_UP       &kp END           &none
-                                                      &none   &none   &none               &none   &trans
+
+     &trans   &kp SQT     &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH                &kp PIPE         &kp AMPERSAND  &kp ASTERISK  &kp GRAVE      &trans  &trans
+     &trans   &kp DQT     &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE               &kp EXCLAMATION  &kp EQUAL      &kp PLUS      &kp MINUS      &trans  &trans
+     &trans   &kp NON_US_BACKSLASH  &kp LCTRL    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR    &trans           &mkp MB1       &mkp MB2      &kp RIGHT_GUI  &trans  &trans
+                                           &trans                &trans                 &trans        &kp TAB          &trans 
             >;
         };
 
         SYM {
             bindings = <
-&none      &none     &none     &kp CARET &kp TILDE       &none         &kp PLUS     &kp AMPS  &kp LBKT  &kp RBKT  &kp PRCNT  &kp BSLH
-&none      &none     &kp LPAR  &kp RPAR  &kp BACKSPACE   &kp UNDER     &kp KP_MINUS &kp GRAVE &kp LBRC  &kp RBRC  &kp ASTRK  &kp PIPE
-&none      &none     &none     &kp HASH  &home_dir       &kp DLLR      &kp EQUAL    &code_blk &kp LT    &kp GT    &kp AT     &kp KP_SLASH
-                                       &none  &trans     &trans         &trans   &trans
+     &trans  &trans   &trans  &trans  &trans   &trans      &trans  &kp K_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans   &trans
+     &trans  &kp F12  &kp F7  &kp F8  &kp F10  &trans      &trans  &kp LEFT    &kp UP_ARROW     &kp DOWN_ARROW     &kp RIGHT  &trans
+     &trans  &trans   &trans  &trans  &trans   &trans      &trans  &new_line   &kp HOME         &kp END            &trans     &trans
+                         &trans  &trans   &trans    &trans  &trans      
             >;
         };
 
