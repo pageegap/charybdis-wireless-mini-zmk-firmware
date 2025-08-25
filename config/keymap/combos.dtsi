@@ -9,7 +9,7 @@
         
         combo_left_click {
             bindings = <&mkp MB1>;
-            key-positions = <04 05>;
+            key-positions = <03 04>;
         };
         
         combo_middle_click {
@@ -19,7 +19,7 @@
         
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <06 07>;
+            key-positions = <07 08>;
             bindings = <&kp ESC>;
         };
 
@@ -35,7 +35,7 @@
 
         lockscreen {
             bindings = <&kp LG(LC(Q))>;
-            key-positions = <04 06>;
+            key-positions = <05 06>;
         };
 
         printscreen {
