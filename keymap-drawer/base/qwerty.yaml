@@ -8,35 +8,35 @@ layers:
   - R
   - T
   - Y
-  - '1'
-  - '2'
-  - '3'
-  - RET
+  - U
+  - I
+  - O
+  - P
   - RET
   - BACK SPACE
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
-  - {t: D, h: LSHFT}
-  - {t: F, h: LCTRL}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
   - G
-  - N
-  - '4'
-  - '5'
-  - '6'
-  - {t: ;, h: RCMD}
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: LALT}
+  - '&ht_ right RCMD SEMICOLON'
   - DEL
-  - CLIP HIST
+  - LSHFT
   - Z
   - X
   - C
   - V
   - B
   - N
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - M
+  - ','
+  - .
   - /
+  - RSHFT
   - ESC SCRL SLOW
   - SYM LCLK
   - BS NUM
