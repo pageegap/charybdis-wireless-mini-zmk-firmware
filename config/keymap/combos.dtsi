@@ -4,7 +4,7 @@
 
         CapsWord {
             bindings = <&caps_word>;
-            key-positions = <38 39>;
+            key-positions = <17 18>;
             layers = <0>;
         };
 
@@ -25,7 +25,7 @@
         
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <07 08>;
+            key-positions = <06 07>;
             bindings = <&kp ESC>;
         };
 
@@ -41,7 +41,7 @@
 
         lockscreen {
             bindings = <&kp LG(LC(Q))>;
-            key-positions = <05 06>;
+            key-positions = <04 06>;
         };
 
         printscreen {
