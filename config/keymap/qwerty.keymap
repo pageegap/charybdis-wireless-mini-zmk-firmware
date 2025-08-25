@@ -71,7 +71,7 @@
             bindings = <
      &trans  &trans   &trans  &trans  &trans   &trans      &trans  &kp K_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans   &trans
      &trans  &kp F12  &kp F7  &kp F8  &kp F10  &trans      &trans  &kp LEFT    &kp UP_ARROW     &kp DOWN_ARROW     &kp RIGHT  &trans
-     &trans  &trans   &mkp MB2    &mkp MB2    &mkp MB1    &mkp MB5       &trans  &new_line   &kp HOME         &kp END            &trans     &trans
+     &trans  &trans   &trans  &trans  &trans   &trans      &trans  &new_line   &kp HOME         &kp END            &trans     &trans
                          &trans  &trans   &trans    &trans  &trans      
             >;
         };
