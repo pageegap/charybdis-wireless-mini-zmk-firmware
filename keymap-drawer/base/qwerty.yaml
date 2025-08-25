@@ -37,7 +37,7 @@ layers:
   - .
   - {t: /, h: NAV}
   - RSHFT
-  - {t: '&mkp MB1', h: SYM}
+  - {t: LCLK, h: SYM}
   - BACK SPACE
   - '&showscreen'
   - DELETE
