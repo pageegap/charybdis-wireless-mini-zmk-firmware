@@ -37,11 +37,11 @@ layers:
   - .
   - /
   - RSHFT
-  - ESC SCRL SLOW
-  - SYM LCLK
-  - BS NUM
-  - DEL
-  - SPACE NAV
+  - '&showscreen'
+  - {t: TAB, h: SYM}
+  - BACK SPACE
+  - DELETE
+  - SPACE
   NUM:
   - ''
   - ''
@@ -164,7 +164,7 @@ layers:
   - '@'
   - /
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -348,3 +348,13 @@ combos:
   k: Mid CLK
 - p: [27, 28]
   k: R CLK
+- p: [6, 7]
+  k: ESC
+- p: [27, 28]
+  k: ENTER
+- p: [23, 24]
+  k: ENTER
+- p: [4, 5]
+  k: Gui+Ctl+ Q
+- p: [14, 15]
+  k: Gui+Sft+ 5
