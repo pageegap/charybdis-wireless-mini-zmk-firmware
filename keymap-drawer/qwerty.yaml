@@ -37,9 +37,9 @@ layers:
   - .
   - {t: /, h: NAV}
   - RSHFT
-  - ESC SCRL SLOW
-  - SYM LCLK
-  - BS NUM
+  - {t: LCLK, h: SYM}
+  - BACK SPACE
+  - '&showscreen'
   - DELETE
   - SPACE
   NUM:
@@ -115,10 +115,10 @@ layers:
   - '['
   - ']'
   - $
-  - {t: ▽, type: trans}
+  - RIGHT GUI
   - '&mkp MB1'
   - '&mkp MB2'
-  - RIGHT GUI
+  - ESC SCRL SLOW
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -152,18 +152,18 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC SCRL SLOW
+  - BACK
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - FWD
   - {t: ▽, type: trans}
   - '&new_line'
   - HOME
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -351,3 +351,5 @@ combos:
   k: Gui+Ctl+ Q
 - p: [17, 18]
   k: Gui+Sft+ 5
+- p: [5, 6]
+  k: ESC
