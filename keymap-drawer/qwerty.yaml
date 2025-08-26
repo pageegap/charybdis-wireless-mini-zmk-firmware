@@ -38,8 +38,8 @@ layers:
   - {t: /, h: NAV}
   - RSHFT
   - ESC SCRL SLOW
-  - '&td_click_or_scroll'
-  - '&showscreen'
+  - SYM LCLK
+  - BS NUM
   - DELETE
   - SPACE
   NUM:
