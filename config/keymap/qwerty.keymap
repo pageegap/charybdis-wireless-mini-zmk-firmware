@@ -63,7 +63,7 @@
      &trans   &kp SQT     &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH                &kp PIPE         &kp AMPERSAND  &kp ASTERISK  &kp GRAVE      &trans  &trans
      &trans   &kp DQT     &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE               &kp EXCLAMATION  &kp EQUAL      &kp PLUS      &kp MINUS      &trans  &trans
      &trans   &kp NON_US_BACKSLASH  &kp LCTRL    &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp DOLLAR      &kp RIGHT_GUI    &mkp MB1       &mkp MB2   &td_esc_scrl_slow &trans &trans
-                                           &trans                &trans                 &trans        &kp TAB          &trans 
+                                           &trans                &trans                 &trans              &trans  &kp TAB 
             >;
         };
 
