@@ -43,7 +43,7 @@
 // ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼────────────────────────┼─────────────┤
     &kp  LSHFT        &lt 1 Z           &kp X            &kp C            &kp V             &kp B    &kp N    &kp M              &kp COMMA    &kp PERIOD  &lt 2 SLASH            &kp RSHFT
 // ╰───────────────┴────────────────┴────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┴─────────────────┴────────────────────────┴─────────────╯
-                                                             &td_esc_scrl_slow   &td_clk  &td_bs     &kp DELETE  &kp SPACE
+                                                             &lt 3 LCLK  &kp BACKSPACE  &showscreen     &kp DELETE  &kp SPACE
                                                          // ╰──────────────────┴─────────┴──────╯  ╰──────────┴──────────────╯
             >;
         };
@@ -71,7 +71,7 @@
             bindings = <
      &trans  &trans   &trans  &trans  &trans   &trans      &trans  &kp K_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans   &trans
      &trans  &kp F12  &kp F7  &kp F8  &kp F10  &trans      &trans  &kp LEFT    &kp UP_ARROW     &kp DOWN_ARROW     &kp RIGHT  &trans
-     &trans  &trans   &trans  &trans  &trans   &trans      &trans  &new_line   &kp HOME         &kp END            &trans     &trans
+     &trans  td_esc_scrl_slow   &trans  &trans  &trans   &trans      &trans  &new_line   &kp HOME         &kp END            &trans     &trans
                          &trans  &trans   &trans    &trans  &trans      
             >;
         };

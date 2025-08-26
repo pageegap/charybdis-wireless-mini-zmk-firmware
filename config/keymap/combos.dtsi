@@ -36,5 +36,9 @@
             bindings = <&kp LG(RS(N5))>;
             key-positions = <17 18>;
         };
+        escsombo {
+            bindings = <&kp ESC >;
+            key-positions = <05 06>;
+        };
     };
 };
