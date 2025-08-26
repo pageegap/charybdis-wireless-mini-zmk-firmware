@@ -37,7 +37,7 @@ layers:
   - .
   - {t: /, h: NAV}
   - RSHFT
-  - {t: LCLK, h: SYM}
+  - BS NUM
   - BACK SPACE
   - '&showscreen'
   - DELETE
@@ -163,7 +163,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
