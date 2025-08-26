@@ -62,7 +62,7 @@
 
      &trans   &kp SQT     &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH                &kp PIPE         &kp AMPERSAND  &kp ASTERISK  &kp GRAVE      &trans  &trans
      &trans   &kp DQT     &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE               &kp EXCLAMATION  &kp EQUAL      &kp PLUS      &kp MINUS      &trans  &trans
-     &trans   &kp NON_US_BACKSLASH  &kp LCTRL    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR    &trans           &mkp MB1       &mkp MB2      &kp RIGHT_GUI  &trans  &trans
+     &trans   &kp NON_US_BACKSLASH  &kp LCTRL    &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp DOLLAR      &kp RIGHT_GUI    &mkp MB1       &mkp MB2   &td_esc_scrl_slow &trans &trans
                                            &trans                &trans                 &trans        &kp TAB          &trans 
             >;
         };
@@ -71,7 +71,7 @@
             bindings = <
      &trans  &trans   &trans  &trans  &trans   &trans      &trans  &kp K_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans   &trans
      &trans  &kp F12  &kp F7  &kp F8  &kp F10  &trans      &trans  &kp LEFT    &kp UP_ARROW     &kp DOWN_ARROW     &kp RIGHT  &trans
-     &trans  td_esc_scrl_slow   &trans  &trans  &trans   &trans      &trans  &new_line   &kp HOME         &kp END            &trans     &trans
+     &trans  &td_esc_scrl_slow  &mkp MB4    &mkp MB2  &mkp MB1  &mkp MB5      &trans  &new_line   &kp HOME         &kp END            &trans     &trans
                          &trans  &trans   &trans    &trans  &trans      
             >;
         };
