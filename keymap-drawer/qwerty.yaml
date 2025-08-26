@@ -351,5 +351,5 @@ combos:
   k: Gui+Ctl+ Q
 - p: [17, 18]
   k: Gui+Sft+ 5
-- p: [5, 6]
+- p: [6, 7]
   k: ESC
