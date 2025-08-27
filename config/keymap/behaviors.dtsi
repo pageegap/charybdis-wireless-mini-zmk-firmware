@@ -6,8 +6,8 @@
     behaviors {
         showscreen: showscreen {
             compatible = "zmk,behavior-tap-dance";
-            label = "SHOWSCREEN";
             #binding-cells = <0>;
+            tapping-term-ms = <250>;
             bindings = <&kp LC(UP_ARROW)>, <&kp LG(UP_ARROW)>;
         };
         
@@ -90,7 +90,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <170>;
-            bindings = <&mo_kp 3 LCLK>, <&kp BACKSPACE>; // hold, tap, double_tap
+            bindings = <&mo 3 &kp MB1>, <&kp BACKSPACE>; // hold, tap, double_tap
         };
 
         httl: ht_two_layers {
