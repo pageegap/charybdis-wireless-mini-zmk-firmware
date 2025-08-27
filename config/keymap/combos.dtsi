@@ -32,8 +32,8 @@
             key-positions = <17 18>;
         };
         escsombo {
-            bindings = <&kp ESC >;
-            key-positions = <07 08>;
+            bindings = <&kp ESC>;
+            key-positions = <7 8>;
         };
     };
 };
