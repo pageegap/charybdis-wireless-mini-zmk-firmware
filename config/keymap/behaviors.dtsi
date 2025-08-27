@@ -88,10 +88,11 @@
 
         td_bs: td_bs {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <0>;
-            tapping-term-ms = <170>;
-            flavor = "tap-preferred";
-            bindings = <&mo 3 &mkp MB1>, <&mkp MB1>; // hold, tap, double_tap
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <40>;
+            hold-while-undecided;
+            bindings = <&mo>, <&mkp>;
         };
 
         httl: ht_two_layers {
