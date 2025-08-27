@@ -89,8 +89,8 @@
         td_bs: td_bs {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <40>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <280>;
             hold-while-undecided;
             bindings = <&mo>, <&mkp>;
         };
