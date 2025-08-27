@@ -7,11 +7,6 @@
             key-positions = <38 39>;
         };
         
-        combo_left_click {
-            bindings = <&mkp MB1>;
-            key-positions = <03 04>;
-        };
-        
         combo_middle_click {
             bindings = <&mkp MCLK>;
             key-positions = <26 27>;
@@ -23,7 +18,7 @@
         };
 
         left_enter {
-            bindings = <&kp ENTER>;
+            bindings = <&mkp MB1>;
             key-positions = <27 28>;
         };
 
@@ -38,7 +33,7 @@
         };
         escsombo {
             bindings = <&kp ESC >;
-            key-positions = <06 07>;
+            key-positions = <07 08>;
         };
     };
 };
