@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - RET
+  - {t: ENTER, h: EXTRAS}
   - BACK SPACE
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
@@ -211,20 +211,20 @@ layers:
   - ''
   - ''
   EXTRAS:
-  - ZMK Studio
-  - SHRUG
-  - LGTM
-  - GIT COMMIT
-  - ''
-  - BRIGHT ▲
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - OUT TOG
   - BT CLR
-  - SLEEP
-  - sudo!!
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - OUT TOG
+  - {t: BT CLR, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
