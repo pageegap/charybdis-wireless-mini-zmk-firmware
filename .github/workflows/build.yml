@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - prospector
     tags:
       - 'v1.0.1'
   workflow_dispatch:
