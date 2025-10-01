@@ -5,6 +5,9 @@ manifest:
 
     - name: 280Zo
       url-base: https://github.com/280Zo
+    
+    - name: carrefinho                            # <--- add this
+      url-base: https://github.com/carrefinho
 
   projects:
     - name: zmk
@@ -16,5 +19,8 @@ manifest:
       remote: 280Zo
       revision: main
 
+    - name: prospector-zmk-module                 # <--- and these
+      remote: carrefinho                          # <---
+      revision: main                              # <---
   self:
     path: config
