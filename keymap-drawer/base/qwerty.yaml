@@ -235,7 +235,7 @@ layers:
   - STOP
   - NEXT
   - ''
-  - LOCK
+  - trans
   - UNDO
   - CUT
   - COPY
