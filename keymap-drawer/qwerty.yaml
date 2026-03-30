@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: qwerty}
 layers:
-  BASE:
+  Base:
   - CAPSLOCK
   - Q
   - W
@@ -12,21 +12,21 @@ layers:
   - I
   - O
   - P
-  - {t: ENTER, h: EXTRAS}
+  - {t: ENTER, h: Xtra}
   - BACK SPACE
-  - {t: A, h: LCMD}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - '&ht_left LCMD A'
+  - '&ht_left LALT S'
+  - '&ht_left LCTRL D'
+  - '&ht_left LSHFT F'
   - G
   - H
-  - {t: J, h: RSHFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: LALT}
-  - {t: ;, h: RCMD}
+  - '&ht_right RSHFT J'
+  - '&ht_right RCTRL K'
+  - '&ht_right LALT L'
+  - '&ht_right RCMD SEMICOLON'
   - ''''
   - LSHFT
-  - {t: Z, h: NUM}
+  - {t: Z, h: Num}
   - X
   - C
   - V
@@ -35,14 +35,14 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: NAV}
+  - {t: /, h: Nav}
   - RSHFT
   - BS NUM
   - BACK SPACE
   - '&showscreen'
   - DELETE
   - SPACE
-  NUM:
+  Num:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,7 +84,7 @@ layers:
   - CAPSLOCK
   - TAB
   - {t: ▽, type: trans}
-  NAV:
+  Nav:
   - {t: ▽, type: trans}
   - ''''
   - '%'
@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
-  SYM:
+  Sym:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -210,7 +210,7 @@ layers:
   - LEFT ALT
   - ''
   - ''
-  EXTRAS:
+  Xtra:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -336,18 +336,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-combos:
-- p: [38, 39]
-  k: L_BASE L_EXTRA
-- p: [26, 27]
-  k: Mid CLK
-- p: [31, 32]
-  k: ENTER
-- p: [27, 28]
-  k: '&mkp MB1'
-- p: [5, 6]
-  k: Gui+Ctl+ Q
-- p: [17, 18]
-  k: Gui+Sft+ 5
-- p: [7, 8]
-  k: ESC

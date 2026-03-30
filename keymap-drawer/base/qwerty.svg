@@ -185,7 +185,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(812, 49)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ENTER</text>
-<text x="0" y="24" class="key hold">EXTRAS</text>
+<text x="0" y="24" class="key hold">Xtra</text>
 </g>
 <g transform="translate(28, 105)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -207,25 +207,15 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<<<<<<< HEAD
-<text x="0" y="0" class="key tap">D</text>
-<text x="0" y="24" class="key hold">LCTRL</text>
-</g>
-<g transform="translate(252, 91)" class="key keypos-16">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F</text>
-<text x="0" y="24" class="key hold">LSHFT</text>
-=======
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 88%">&amp;ht_left</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">LSHFT</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">D</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 88%">&amp;ht_left</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">LCTRL</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">D</tspan>
 </text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 88%">&amp;ht_left</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">LCTRL</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">F</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 88%">&amp;ht_left</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">LSHFT</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">F</tspan>
 </text>
->>>>>>> upstream/main
 </g>
 <g transform="translate(308, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -237,25 +227,15 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<<<<<<< HEAD
-<text x="0" y="0" class="key tap">J</text>
-<text x="0" y="24" class="key hold">RSHFT</text>
-</g>
-<g transform="translate(644, 84)" class="key keypos-20">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">K</text>
-<text x="0" y="24" class="key hold">RCTRL</text>
-=======
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 78%">&amp;ht_right</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">RCTRL</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">J</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 78%">&amp;ht_right</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">RSHFT</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">J</tspan>
 </text>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 78%">&amp;ht_right</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">RSHFT</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">K</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 78%">&amp;ht_right</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">RCTRL</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">K</tspan>
 </text>
->>>>>>> upstream/main
 </g>
 <g transform="translate(700, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -280,7 +260,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Z</text>
-<text x="0" y="24" class="key hold">NUM</text>
+<text x="0" y="24" class="key hold">Num</text>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -308,7 +288,6 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(644, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<<<<<<< HEAD
 <text x="0" y="0" class="key tap">,</text>
 </g>
 <g transform="translate(700, 147)" class="key keypos-33">
@@ -318,18 +297,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(756, 161)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">/</text>
-<text x="0" y="24" class="key hold">NAV</text>
-=======
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;mm_cm_sc</tspan></text>
-</g>
-<g transform="translate(700, 147)" class="key keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;mm_pr_col</tspan></text>
-</g>
-<g transform="translate(756, 161)" class="key keypos-34">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;mm_qm_ex</tspan></text>
->>>>>>> upstream/main
+<text x="0" y="24" class="key hold">Nav</text>
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
