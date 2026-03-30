@@ -1,4 +1,4 @@
-# This file generates the GitHub Actions matrix.
+# This file generates the GitHub Actions matrix. Testing
 
 board:
   - nice_nano_v2
